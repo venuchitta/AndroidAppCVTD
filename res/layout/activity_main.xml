@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="fill_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="40dp"
+        android:clickable="false"
+        android:drawSelectorOnTop="false"
+        android:duplicateParentState="false"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:longClickable="false" >
+
+    </ListView>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        style="@id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:entries="@array/bus_arrays" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:onClick="loadBusData"
+        android:text="Select"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="Select a Bus Route"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/opaque_red"
+        android:textColorLink="@color/opaque_red"
+        android:textSize="@dimen/activity_vertical_margin" />
+
+</RelativeLayout>

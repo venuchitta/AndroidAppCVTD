@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CVTD</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bus_prompt">Choose a Bus route</string>
+    <string-array name="bus_arrays">
+        <item>Route 1</item>
+        <item>Route 1E</item>
+        <item>Route 2</item>
+        <item>Route 3</item>
+        <item>Route 4</item>
+        <item>Route 5</item>
+        <item>Route 6</item>
+        <item>Route 7</item>
+        <item>Route 8</item>
+        <item>Route 9</item>
+        <item>Route 10</item>
+        <item>Route 11</item>
+        <item>Route CVN</item>
+        <item>Route CVS Express</item>
+        <item>Route CVS Offpeak</item>
+        <item>Route CVS Off</item>
+        <item>Route Franklin Connnection Country</item>
+    </string-array>
+        <string name="autocompletetextview">AutoCompleteTextView</string>
+        <string name="todo">TODO</string>
+        <string name="large_text">Large Text</string>
+
+</resources>
